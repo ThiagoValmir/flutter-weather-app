@@ -1,16 +1,17 @@
-# flutter_weather_app
+# Weather App
 
-A new Flutter project.
+Este é um aplicativo de previsão do tempo desenvolvido em Flutter que exibe as condições climáticas atuais com base na localização do usuário. O app utiliza uma API de previsão do tempo para buscar os dados e apresenta as informações de forma clara e intuitiva na tela.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+Previsão do Tempo Atual: Obtém informações sobre a temperatura, umidade, e condições climáticas (ex.: ensolarado, nublado, chuva) da localização do usuário.
+Localização em Tempo Real: Usa o GPS para detectar automaticamente a localização do dispositivo.
+Interface Amigável: Design simples e limpo, focado na experiência do usuário.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter: Framework principal para o desenvolvimento do aplicativo.
+Pacotes Flutter:
+weather: Utilizada para obter os dados climáticos em tempo real.
+geolocator: Para obter a localização do dispositivo.
+bloc: Para gerenciamento de estado.
